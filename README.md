@@ -9,5 +9,6 @@
 	- шапку с бутстрата
 	- `14:00` добавление конопок, изменение надписей
 <img width="1219" alt="image" src="https://user-images.githubusercontent.com/58044383/206044984-dfe6be94-c5d8-4cfe-98cb-762810d2824e.png">
+
 	- `20:00` подключили api погодного сайта
 <img width="823" alt="image" src="https://user-images.githubusercontent.com/58044383/206319764-98a214c1-3e57-4726-9453-7f61a25e8f51.png">
