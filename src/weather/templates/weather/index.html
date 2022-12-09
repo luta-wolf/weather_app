@@ -34,6 +34,8 @@
 				<h1>Информация</h1>
 				<!--alert alert-danger подсветить красным-->
 				<!--alert alert-info подсветить синим-->
+
+				{% for info in all_info %}
 				<div class="alert alert-info">
 					<div class="row">
 						<div class="col-9">
@@ -45,6 +47,8 @@
 						</div>
 					</div>
 				</div>
+				{% endfor %}
+
 			</div>
 		</div>
 	</div>
