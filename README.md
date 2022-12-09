@@ -22,3 +22,27 @@
 
 -`48:20` - города вводятся с главной страницы
 <img width="1092" alt="image" src="https://user-images.githubusercontent.com/58044383/206605051-31f1f992-200b-4229-98d1-502d73656265.png">
+
+-`51:00` - города вводятся с главной страницы из красивой формы
+<img width="1211" alt="image" src="https://user-images.githubusercontent.com/58044383/206609451-f946c331-03e8-4771-9ed0-58798aad9279.png">
+
+### Виртульное окружение
+- `python3.10 -m venv venv` - устанавливаем venv
+- `source venv/bin/activate` - запускаем venv
+- `pip install --upgrade pip` - обновляем pip
+- `pip freeze` - проверка установеленных бибилиотек в venv
+- `deactivate` - выходим из venv
+- `pip3 freeze > requirements.txt` - запись усановленных билилотек из venv в txt файл
+- `pip install -r requirements.txt`- установить все требуемые библиотеки python в новом
+окружении
+### Немного полезных команд git
+- `git reset HEAD` - отменить последний `add`
+- `git reset --hard` - сбросить все изменеия до последнего комита (может привести к потере результатов работы)
+### Установка и запуск Django
+- `pip install django` - устанавливаем последнюю версию django (в качестве бибилиотеки)
+- `pip install requests` - установка библиотеки requests
+- `python3 manage.py makemigrations` - создаем миргации
+- `python3 manage.py migrate` - запуск миграций
+- `django-admin startproject <name_project> .` - установка django (в качестве приложения)
+- `python manage.py createsuperuser` - создание суперюзера
+- `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
