@@ -32,7 +32,7 @@
 
 <details>
 <summary>Полезные команды</summary>
-  
+
 ### Виртульное окружение
 - `python3.10 -m venv venv` - устанавливаем venv
 - `source venv/bin/activate` - запускаем venv
@@ -53,8 +53,8 @@
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
 - `python3 manage.py createsuperuser` - создание суперюзера
 - `python3 manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
-  
+
 </details>
 
 ### Запуск
-`bash run.sh`
+`bash run.sh`, далее открываем в браузере `http://127.0.0.1:8000/`
