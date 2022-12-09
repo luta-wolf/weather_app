@@ -8,6 +8,7 @@
 
 <details>
 <summary>Пошаговое написание проекта</summary>
+
 -  `14:00` подключил админку джанго `http://localhost:8000/admin/`
 <img width="819" alt="image" src="https://user-images.githubusercontent.com/58044383/206045534-11e2f8cf-663b-47cf-9e9f-8a37cfcbc6bc.png">
 
@@ -45,7 +46,7 @@
 - `pip3 freeze > requirements.txt` - запись усановленных билилотек из venv в txt файл
 - `pip install -r requirements.txt`- установить все требуемые библиотеки python в новом
 окружении
-### Немного полезных команд git
+### Полезных команды git
 - `git reset HEAD` - отменить последний `add`
 - `git reset --hard` - сбросить все изменеия до последнего комита (может привести к потере результатов работы)
 ### Установка и запуск Django
@@ -60,4 +61,8 @@
 </details>
 
 ### Запуск
-`bash run.sh`, далее открываем в браузере `http://127.0.0.1:8000/`
+- При первом запуске используем скрипт `bash run.sh`, он настраивает виртуальное окружение
+- При повторных запусках: `python3 src/manage.py runserver`
+### Результат
+- `http://127.0.0.1:8000/` - главная станичка
+- `http://localhost:8000/admin` - для админки
