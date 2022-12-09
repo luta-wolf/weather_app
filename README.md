@@ -1,9 +1,7 @@
 ## Погодное приложение
-Погодное приложение написанное по [видеогайду](https://www.youtube.com/watch?v=lsAbq2RcWlQ&ab_channel=%D0%93%D0%BE%D1%88%D0%B0%D0%94%D1%83%D0%B4%D0%B0%D1%80%D1%8C) отображает текущую погоду в выбранном городе. Реализовано на языке `Python` с использование фрейворка `Django` и библиотеки `requests`. Данные по погоде будем забирать по `api` с сайта [Openweathermap](https://openweathermap.org/), оформление берем с сайта[Bootstrap](https://getbootstrap.com/docs/5.2/examples/)
+Погодное приложение написанное по [видеогайду](https://www.youtube.com/watch?v=lsAbq2RcWlQ&ab_channel=%D0%93%D0%BE%D1%88%D0%B0%D0%94%D1%83%D0%B4%D0%B0%D1%80%D1%8C) отображает текущую погоду в выбранном городе. Реализовано на языке `Python` с использование фрейворка `Django` и библиотеки `requests`. Данные по погоде будем забирать по `api` с сайта [Openweathermap](https://openweathermap.org/), оформление берем с сайта [Bootstrap](https://getbootstrap.com/docs/5.2/examples/).
+
 <img width="1201" alt="image" src="https://user-images.githubusercontent.com/58044383/206614178-a21fa078-08bf-449b-a741-1feed51448a5.png">
-
-- [видеогайд](https://www.youtube.com/watch?v=lsAbq2RcWlQ&ab_channel=%D0%93%D0%BE%D1%88%D0%B0%D0%94%D1%83%D0%B4%D0%B0%D1%80%D1%8C)
-
 
 <details>
 <summary>Пошаговое написание проекта</summary>
@@ -56,5 +54,5 @@
 - `python3 manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
 </details>
 
-- Запуск
+### Запуск
 `bash run.sh`
