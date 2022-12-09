@@ -7,7 +7,7 @@ def index(request):
 	appid = '30814faf0bf2eaa9e852c19ea73a6522'
 	url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=' + appid
 
-	city = 'London'
+	city = 'Yakutsk'
 	res = requests.get(url.format(city)).json()
 
 	city_info = {
