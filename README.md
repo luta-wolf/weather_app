@@ -17,5 +17,8 @@
 - `34:00` - добавил города в базу данных
 <img width="1029" alt="image" src="https://user-images.githubusercontent.com/58044383/206598615-4596912c-8c4f-4514-b863-5f0fe79837bd.png">
 
-- `41:40` - вывел города с погодой на главную станицу
+- `41:40` - вывел города из базы данных на главную станицу
 <img width="1221" alt="image" src="https://user-images.githubusercontent.com/58044383/206600126-878bb0b5-d952-4e49-834a-5fac78be647b.png">
+
+-`48:20` - города вводятся с главной страницы
+<img width="1092" alt="image" src="https://user-images.githubusercontent.com/58044383/206605051-31f1f992-200b-4229-98d1-502d73656265.png">
