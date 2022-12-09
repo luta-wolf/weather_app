@@ -13,3 +13,6 @@
 
 - `30:00` - вывел информацию с api на главную страницу
 <img width="1243" alt="image" src="https://user-images.githubusercontent.com/58044383/206596281-ab46fee6-fd10-4ae8-8ee3-f70a1cf01c26.png">
+
+- `34:00` - добавил города в базу данных
+<img width="1029" alt="image" src="https://user-images.githubusercontent.com/58044383/206598615-4596912c-8c4f-4514-b863-5f0fe79837bd.png">
