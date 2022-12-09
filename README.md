@@ -59,6 +59,13 @@
 - `python3 manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
 
 </details>
+<details>
+<summary>Как можно улучшить</summary>
+  
+- [pythonanywhere](https://www.pythonanywhere.com/) - развернуть здесь сайт
+- обернуть в `docker`
+- убрать ключи и токены из открытой части кода
+</details>
 
 ### Запуск
 - При первом запуске используем скрипт `bash run.sh`, он настраивает виртуальное окружение
