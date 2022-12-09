@@ -1,7 +1,11 @@
 ## Погодное приложение
+<img width="1222" alt="image" src="https://user-images.githubusercontent.com/58044383/206610397-c10e9b7e-f74b-46c2-b8a1-9ec45269bff9.png">
 
 - [видеогайд](https://www.youtube.com/watch?v=lsAbq2RcWlQ&ab_channel=%D0%93%D0%BE%D1%88%D0%B0%D0%94%D1%83%D0%B4%D0%B0%D1%80%D1%8C)
 - [сайт погодного приложения](https://openweathermap.org/)
+
+<details>
+<summary>Пошаговое написание проекта</summary>
 -  `14:00` подключил админку джанго `http://localhost:8000/admin/`
 <img width="819" alt="image" src="https://user-images.githubusercontent.com/58044383/206045534-11e2f8cf-663b-47cf-9e9f-8a37cfcbc6bc.png">
 
@@ -25,6 +29,7 @@
 
 -`51:00` - города вводятся с главной страницы из красивой формы
 <img width="1211" alt="image" src="https://user-images.githubusercontent.com/58044383/206609451-f946c331-03e8-4771-9ed0-58798aad9279.png">
+</details>
 
 ### Виртульное окружение
 - `python3.10 -m venv venv` - устанавливаем venv
