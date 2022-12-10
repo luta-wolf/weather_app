@@ -1,5 +1,5 @@
 ## Погодное приложение
-Погодное приложение отображает текущую погоду в выбранном городе. Реализовано на языке `Python` с использование фрейворка `Django` и библиотеки `requests`. 
+Погодное приложение отображает текущую погоду в выбранном городе. Реализовано на языке `Python` с использование фрейворка `Django` и библиотеки `requests`.
 - [видеогайд](https://www.youtube.com/watch?v=lsAbq2RcWlQ&ab_channel=%D0%93%D0%BE%D1%88%D0%B0%D0%94%D1%83%D0%B4%D0%B0%D1%80%D1%8C)
 - [Openweathermap](https://openweathermap.org/) для `api`
 - [Bootstrap](https://getbootstrap.com/docs/5.2/examples/) для оформления
@@ -61,7 +61,7 @@
 </details>
 <details>
 <summary>Как можно улучшить</summary>
-  
+
 - [pythonanywhere](https://www.pythonanywhere.com/) - развернуть здесь сайт
 - обернуть в `docker`
 - убрать ключи и токены из открытой части кода
@@ -70,6 +70,7 @@
 ### Запуск
 - При первом запуске используем скрипт `bash run.sh`, он настраивает виртуальное окружение
 - При повторных запусках: `python3 src/manage.py runserver`
+- Для доступа к базе данных создаем супепользователя `python3 src/manage.py createsuperuser`
 ### Результат
 - `http://127.0.0.1:8000/` - главная станичка
 - `http://localhost:8000/admin` - для админки
