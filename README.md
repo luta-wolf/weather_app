@@ -7,7 +7,7 @@
 <img width="1201" alt="image" src="https://user-images.githubusercontent.com/58044383/206616194-b2ba0c0d-4af4-426e-8eeb-35543f3dc0df.png">
 
 <details>
-<summary>Пошаговое написание проекта</summary>
+<summary>Пошаговое выполнение проекта</summary>
 
 -  `14:00` подключил админку джанго `http://localhost:8000/admin/`
 <img width="819" alt="image" src="https://user-images.githubusercontent.com/58044383/206045534-11e2f8cf-663b-47cf-9e9f-8a37cfcbc6bc.png">
