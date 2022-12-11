@@ -52,11 +52,11 @@
 ### Установка и запуск Django
 - `pip install django` - устанавливаем последнюю версию django (в качестве бибилиотеки)
 - `pip install requests` - установка библиотеки requests
-- `python3 manage.py makemigrations` - создаем миргации
-- `python3 manage.py migrate` - запуск миграций
+- `python manage.py makemigrations` - создаем миргации
+- `python manage.py migrate` - запуск миграций
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
-- `python3 manage.py createsuperuser` - создание суперюзера
-- `python3 manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
+- `python manage.py createsuperuser` - создание суперюзера
+- `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
 
 </details>
 <details>
@@ -69,8 +69,8 @@
 
 ### Запуск
 - При первом запуске используем скрипт `bash run.sh`, он настраивает виртуальное окружение
-- При повторных запусках: `python3 src/manage.py runserver`
-- Для доступа к базе данных создаем супепользователя `python3 src/manage.py createsuperuser`
+- При повторных запусках: `python src/manage.py runserver`
+- Для доступа к базе данных создаем супепользователя `python src/manage.py createsuperuser`
 ### Результат
 - `http://127.0.0.1:8000/` - главная станичка
 - `http://localhost:8000/admin` - для админки
