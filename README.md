@@ -43,7 +43,7 @@
 - `pip install --upgrade pip` - обновляем pip
 - `pip freeze` - проверка установеленных бибилиотек в venv
 - `deactivate` - выходим из venv
-- `pip3 freeze > requirements.txt` - запись усановленных билилотек из venv в txt файл
+- `pip freeze > requirements.txt` - запись усановленных билилотек из venv в txt файл
 - `pip install -r requirements.txt`- установить все требуемые библиотеки python в новом
 окружении
 ### Полезных команды git
