@@ -64,6 +64,8 @@
 
 - [pythonanywhere](https://www.pythonanywhere.com/) - развернуть здесь сайт ✅ 
 - обернуть в `docker`
+  - [Dockerizing a Python Django Web Application](https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application#h-dockerizing-the-application) - настройка django docker
+  - [Python, docker](https://learn.dualboot.ru/courses/12/lessons/147/theories/2151) - курс по python docker
 - убрать ключи и токены из открытой части кода
 </details>
 
