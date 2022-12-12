@@ -1,10 +1,9 @@
 version: '3'
 
-service:
+services:
   weather:
     build:
       context: .
-  ports:
-    - '80:80'
-  container-name: weather
-  
+    ports:
+      - '80:80'
+    container_name: weather
