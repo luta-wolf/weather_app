@@ -68,7 +68,7 @@
 </details>
 
 ### Демо
--  [pythonanywhere](https://einterdi.pythonanywhere.com/) - если не хочется устанавливать.
+-  [click](https://einterdi.pythonanywhere.com/)
 
 ### Запуск
 - При первом запуске используем скрипт `bash run.sh`, он настраивает виртуальное окружение
