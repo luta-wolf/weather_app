@@ -62,7 +62,7 @@
 <details>
 <summary>Как можно улучшить</summary>
 
-- [pythonanywhere](https://www.pythonanywhere.com/) - развернуть здесь сайт
+- [pythonanywhere](https://www.pythonanywhere.com/) - развернуть здесь сайт ✅ 
 - обернуть в `docker`
 - убрать ключи и токены из открытой части кода
 </details>
