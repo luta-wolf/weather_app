@@ -1,0 +1,10 @@
+version: '3'
+
+service:
+  weather:
+    build:
+      context: .
+  ports:
+    - '80:80'
+  container-name: weather
+  
