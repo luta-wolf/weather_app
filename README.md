@@ -1,5 +1,5 @@
 ## Погодное приложение
-Погодное приложение отображает текущую погоду в выбранном городе. Реализовано на языке `Python` с использование фрейворка `Django` и библиотеки `requests`.
+Погодное приложение отображает текущую погоду в любом городе мира. Реализовано на языке `Python` с использование фрейворка `Django` и библиотеки `requests`.
 - [видеогайд](https://www.youtube.com/watch?v=lsAbq2RcWlQ&ab_channel=%D0%93%D0%BE%D1%88%D0%B0%D0%94%D1%83%D0%B4%D0%B0%D1%80%D1%8C)
 - [Openweathermap](https://openweathermap.org/) для `api`
 - [Bootstrap](https://getbootstrap.com/docs/5.2/examples/) для оформления
@@ -16,6 +16,7 @@
 <img width="1219" alt="image" src="https://user-images.githubusercontent.com/58044383/206044984-dfe6be94-c5d8-4cfe-98cb-762810d2824e.png">
 
 - `20:00` подключил api погодного сайта
+<img width="278" alt="image" src="https://user-images.githubusercontent.com/58044383/208277964-8c165661-a9a1-4100-bca4-d5aafe3d37c7.png">
 <img width="823" alt="image" src="https://user-images.githubusercontent.com/58044383/206319764-98a214c1-3e57-4726-9453-7f61a25e8f51.png">
 
 - `30:00` - вывел информацию с api на главную страницу
@@ -35,7 +36,7 @@
 </details>
 
 <details>
-<summary>Полезные команды</summary>
+<summary>Команды</summary>
 
 ### Виртульное окружение
 - `python3.10 -m venv venv` - устанавливаем venv
