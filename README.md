@@ -67,8 +67,16 @@
 - обернуть в `docker`
   - [Dockerizing a Python Django Web Application](https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application#h-dockerizing-the-application) - настройка django docker
   - [Python, docker](https://learn.dualboot.ru/courses/12/lessons/147/theories/2151) - курс по python docker
-- убрать ключи и токены из открытой части кода
+- Вынести конфирурации в `.env`, особенно секреты
+- `templates` лучше хранить в src, а не разносить в каждое приложение 
+- В models указывай так же verbose_name с gettext_lazy. Проще будет мультиязычность подключать
+- По поводу views, выноси бл в сервисы и копай в сторону generic viewsets
+- Давай осмысленные имена переменным, res ниочем не говорит
+- Dockerfile'ы выноси в отдельную директорию docker/<container_name>. Трудно будет масштабировать
+
+
 - сделать [тестовое](https://docs.google.com/document/d/1RqJhk-pRDuAk4pH1uqbY9-8uwAqEXB9eRQWLSMM_9sI/edit) (новый проект)
+
 </details>
 
 ### Демо
