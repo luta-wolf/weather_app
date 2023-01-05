@@ -63,12 +63,12 @@
 <details>
 <summary>Как можно улучшить</summary>
 
-- [pythonanywhere](https://www.pythonanywhere.com/) - развернуть здесь сайт ✅ 
+- [pythonanywhere](https://www.pythonanywhere.com/) - развернуть здесь сайт ✅
 - обернуть в `docker`
   - [Dockerizing a Python Django Web Application](https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application#h-dockerizing-the-application) - настройка django docker
   - [Python, docker](https://learn.dualboot.ru/courses/12/lessons/147/theories/2151) - курс по python docker
-- Вынести конфирурации в `.env`, особенно секреты
-- `templates` лучше хранить в src, а не разносить в каждое приложение 
+- Вынести конфирурации в `.env`, особенно секреты ✅
+- `templates` лучше хранить в src, а не разносить в каждое приложение
 - В models указывай так же verbose_name с gettext_lazy. Проще будет мультиязычность подключать
 - По поводу views, выноси бл в сервисы и копай в сторону generic viewsets
 - Давай осмысленные имена переменным, res ниочем не говорит

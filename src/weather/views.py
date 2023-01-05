@@ -2,11 +2,14 @@ import requests
 from django.shortcuts import render
 from . models import City
 from . forms import CityForm
+import os
+# SECRET_KEY = os.environ['SECRET_KEY']
 
 # Create your views here.
 
 def index(request):
-	appid = '30814faf0bf2eaa9e852c19ea73a6522'
+	# appid = '30814faf0bf2eaa9e852c19ea73a6522'
+	appid = os.environ['appid']
 	url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=' + appid
 
 	if (request.method == 'POST'):
