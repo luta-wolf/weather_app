@@ -1,4 +1,13 @@
-FROM python:alpine3.16
-COPY . /var/www
-WORKDIR /var/www
-CMD ["sh", "/var/www/run.sh"]
+FROM python:alpine3.17
+
+WORKDIR /app
+
+COPY src .
+
+COPY requirements.txt .
+
+RUN pip install --upgrade pip -r requirements.txt
+
+RUN python manage.py migrate
+
+EXPOSE 8000

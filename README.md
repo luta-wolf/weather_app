@@ -3,6 +3,7 @@
 - [видеогайд](https://www.youtube.com/watch?v=lsAbq2RcWlQ&ab_channel=%D0%93%D0%BE%D1%88%D0%B0%D0%94%D1%83%D0%B4%D0%B0%D1%80%D1%8C)
 - [Openweathermap](https://openweathermap.org/) для `api`
 - [Bootstrap](https://getbootstrap.com/docs/5.2/examples/) для оформления
+- [docker hub](https://hub.docker.com/_/python) - хранилище образов docker 
 
 <img width="1201" alt="image" src="https://user-images.githubusercontent.com/58044383/206616194-b2ba0c0d-4af4-426e-8eeb-35543f3dc0df.png">
 

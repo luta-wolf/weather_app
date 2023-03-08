@@ -4,6 +4,8 @@ services:
   weather:
     build:
       context: .
+    restart: unless-stopped
     ports:
-      - '80:80'
+      - '8000:8000'
     container_name: weather
+    command: python manage.py runserver

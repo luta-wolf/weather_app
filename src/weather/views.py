@@ -8,8 +8,8 @@ import os
 # Create your views here.
 
 def index(request):
-	# appid = '30814faf0bf2eaa9e852c19ea73a6522'
-	appid = os.environ['appid']
+	appid = '30814faf0bf2eaa9e852c19ea73a6522'
+	# appid = os.environ['appid']
 	url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=' + appid
 
 	if (request.method == 'POST'):
