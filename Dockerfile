@@ -11,3 +11,5 @@ RUN pip install --upgrade pip -r requirements.txt
 RUN python manage.py migrate
 
 EXPOSE 8000
+
+CMD python manage.py runserver
