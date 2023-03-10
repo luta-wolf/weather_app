@@ -2,11 +2,9 @@ version: '3'
 
 services:
   weather:
-    build:
-      context: .
+    build: .
     restart: unless-stopped
     ports:
-      - '8000:8000'
+      - "8000:8000"
     container_name: weather
-    command: python manage.py runserver
-    tty: true
+    command: python manage.py runserver 0.0.0.0:8000
