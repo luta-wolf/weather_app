@@ -39,7 +39,7 @@
 <details>
 <summary>Команды</summary>
 
-### Установка докера в goinfee на школьных маках
+### Установка докера в goinfre на школьных маках
 - rm -rf ~/Library/Containers/com.docker.docker
 - mkdir -p ~/goinfre/Docker/Data
 - ln -s ~/goinfre/Docker ~/Library/Containers/com.docker.docker
