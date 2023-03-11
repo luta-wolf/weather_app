@@ -39,6 +39,11 @@
 <details>
 <summary>Команды</summary>
 
+### Установка докера в goinfee на школьных маках
+- rm -rf ~/Library/Containers/com.docker.docker
+- mkdir -p ~/goinfre/Docker/Data
+- ln -s ~/goinfre/Docker ~/Library/Containers/com.docker.docker
+
 ### Виртульное окружение
 - `python3.10 -m venv venv` - устанавливаем venv
 - `source venv/bin/activate` - запускаем venv
